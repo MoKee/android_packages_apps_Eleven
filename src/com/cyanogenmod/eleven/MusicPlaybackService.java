@@ -3756,16 +3756,16 @@ public class MusicPlaybackService extends Service {
         }
 
         /**
-        * {@inheritDoc}
-        */
+         * {@inheritDoc}
+         */
         @Override
         public void setShakeToPlayEnabled(boolean enabled) {
             mService.get().setShakeToPlayEnabled(enabled);
         }
 
         /**
-        * {@inheritDoc}
-        */
+         * {@inheritDoc}
+         */
         @Override
         public void setLockscreenAlbumArt(boolean enabled) {
             mService.get().setLockscreenAlbumArt(enabled);
