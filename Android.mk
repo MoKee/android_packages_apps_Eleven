@@ -17,8 +17,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-visualizer \
     eleven_support_v4 \
     eleven_recyclerview \
-    guava \
-    libMoKeePinYin
+    guava
 
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \

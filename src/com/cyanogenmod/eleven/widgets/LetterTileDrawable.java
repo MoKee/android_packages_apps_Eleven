@@ -29,6 +29,7 @@ import android.graphics.Paint.Align;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.mokee.utils.MoKeeUtils;
 import android.text.TextUtils;
 
 import junit.framework.Assert;
@@ -37,8 +38,6 @@ import com.cyanogenmod.eleven.R;
 import com.cyanogenmod.eleven.cache.ImageWorker.ImageType;
 import com.cyanogenmod.eleven.utils.BitmapWithColors;
 import com.cyanogenmod.eleven.utils.MusicUtils;
-
-import org.chinese.pinyin.PinyinHelper;
 
 /**
  * A drawable that encapsulates all the functionality needed to display a letter tile to
@@ -162,7 +161,7 @@ public class LetterTileDrawable extends Drawable {
                     bounds.centerY() + mOffset * bounds.height() + sRect.height() / 2,
                     sPaint);
         } else if (mDisplayName != null
-                && PinyinHelper.matchesCheck(mDisplayName.charAt(0))) {
+                && MoKeeUtils.isChineseLetter(mDisplayName.charAt(0))) {
             int numChars = 1;
 
             // Draw letter or digit.
