@@ -1768,7 +1768,7 @@ public final class MusicUtils {
         }
         return false;
     }
-    
+
     public static void setSleepMode(boolean enable) {
         if (mService != null) {
             try {
