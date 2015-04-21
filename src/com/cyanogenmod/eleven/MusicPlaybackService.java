@@ -2422,6 +2422,11 @@ public class MusicPlaybackService extends Service {
             return;
         }
 
+        final Intent intent = new Intent(AudioEffect.ACTION_OPEN_AUDIO_EFFECT_CONTROL_SESSION);
+        intent.putExtra(AudioEffect.EXTRA_AUDIO_SESSION, getAudioSessionId());
+        intent.putExtra(AudioEffect.EXTRA_PACKAGE_NAME, getPackageName());
+        sendBroadcast(intent);
+
         mAudioManager.registerMediaButtonEventReceiver(new ComponentName(getPackageName(),
                 MediaButtonIntentReceiver.class.getName()));
         mSession.setActive(true);
@@ -2460,6 +2465,12 @@ public class MusicPlaybackService extends Service {
         synchronized (this) {
             mPlayerHandler.removeMessages(FADEUP);
             if (mIsSupposedToBePlaying) {
+                final Intent intent = new Intent(
+                        AudioEffect.ACTION_CLOSE_AUDIO_EFFECT_CONTROL_SESSION);
+                intent.putExtra(AudioEffect.EXTRA_AUDIO_SESSION, getAudioSessionId());
+                intent.putExtra(AudioEffect.EXTRA_PACKAGE_NAME, getPackageName());
+                sendBroadcast(intent);
+
                 mPlayer.pause();
                 setIsSupposedToBePlaying(false, true);
                 stopShakeDetector(false);
@@ -3180,10 +3191,6 @@ public class MusicPlaybackService extends Service {
             }
             player.setOnCompletionListener(this);
             player.setOnErrorListener(this);
-            final Intent intent = new Intent(AudioEffect.ACTION_OPEN_AUDIO_EFFECT_CONTROL_SESSION);
-            intent.putExtra(AudioEffect.EXTRA_AUDIO_SESSION, getAudioSessionId());
-            intent.putExtra(AudioEffect.EXTRA_PACKAGE_NAME, mService.get().getPackageName());
-            mService.get().sendBroadcast(intent);
             return true;
         }
 
