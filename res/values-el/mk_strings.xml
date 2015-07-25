@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Таймер сна</string>
-  <string name="cancel_sleep_mode">Отключить таймер</string>
-  <string name="select_quit_time">Установить таймер выключения плеера (в минутах)</string>
-  <string name="quit_warining">Плеер перестанет играть через %1$s мин</string>
+  <string name="menu_sleep_mode">Xρονοδιακόπτης ύπνου</string>
+  <string name="cancel_sleep_mode">Ακύρωση Xρονοδιακόπτη ύπνου</string>
+  <string name="select_quit_time">O χρονοδιακόπτης θα σταματήσει τον αναπαραγωγέα πολυμέσων(σε λεπτά)</string>
+  <string name="quit_warining">Ο αναπαραγωγέας πολυμέσων θα σταματήσει να παίζει μετά από %1$s λεπτό (ά)</string>
 </resources>

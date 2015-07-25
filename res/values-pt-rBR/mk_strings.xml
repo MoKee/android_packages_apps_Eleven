@@ -18,5 +18,5 @@
   <string name="menu_sleep_mode">Tempo de inatividade</string>
   <string name="cancel_sleep_mode">Cancelar hora de dormir</string>
   <string name="select_quit_time">Ajuste o temporizador para parar o leitor (em minutos)</string>
-  <string name="quit_warining">O reprodutor vai parar em  %1$s minuto(s)</string>
+  <string name="quit_warining">O reprodutor vai parar depois de  %1$s minuto(s)</string>
 </resources>
