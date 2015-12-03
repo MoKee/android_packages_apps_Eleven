@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2015 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -116,7 +117,7 @@ public class HomeActivity extends SlidingPanelActivity implements
 
             // figure which panel we are on and update the status bar
             mBrowsePanelActive = (getCurrentPanel() == Panel.Browse);
-            updateStatusBarColor();
+            updateStatusBarColorAndNavigationBarColor();
         }
 
         // if intent wasn't UI related, process it as a audio playback request
@@ -167,7 +168,7 @@ public class HomeActivity extends SlidingPanelActivity implements
     @Override
     public void onMetaChanged() {
         super.onMetaChanged();
-        updateStatusBarColor();
+        updateStatusBarColorAndNavigationBarColor();
     }
 
     @Override
@@ -175,7 +176,7 @@ public class HomeActivity extends SlidingPanelActivity implements
         boolean isInBrowser = getCurrentPanel() == Panel.Browse && slideOffset < 0.7f;
         if (isInBrowser != mBrowsePanelActive) {
             mBrowsePanelActive = isInBrowser;
-            updateStatusBarColor();
+            updateStatusBarColorAndNavigationBarColor();
         }
     }
 
@@ -187,9 +188,10 @@ public class HomeActivity extends SlidingPanelActivity implements
                 && getCurrentPanel() == Panel.MusicPlayer);
     }
 
-    private void updateStatusBarColor() {
+    private void updateStatusBarColorAndNavigationBarColor() {
         if (mBrowsePanelActive || MusicUtils.getCurrentAlbumId() < 0) {
             updateStatusBarColor(Color.TRANSPARENT);
+            updateNavigationBarColor(Color.TRANSPARENT);
         } else {
             new AsyncTask<Void, Void, BitmapWithColors>() {
                 @Override
@@ -205,6 +207,8 @@ public class HomeActivity extends SlidingPanelActivity implements
                     updateVisualizerColor(bmc != null
                             ? bmc.getVibrantColor() : Color.TRANSPARENT);
                     updateStatusBarColor(bmc != null
+                            ? bmc.getVibrantDarkColor() : Color.TRANSPARENT);
+                    updateNavigationBarColor(bmc != null
                             ? bmc.getVibrantDarkColor() : Color.TRANSPARENT);
                 }
             }.execute();
@@ -230,6 +234,18 @@ public class HomeActivity extends SlidingPanelActivity implements
         final Window window = getWindow();
         ObjectAnimator animator = ObjectAnimator.ofInt(window,
                 "statusBarColor", window.getStatusBarColor(), color);
+        animator.setEvaluator(new ArgbEvaluator());
+        animator.setDuration(300);
+        animator.start();
+    }
+
+    private void updateNavigationBarColor(int color) {
+        if (color == Color.TRANSPARENT) {
+            color = getResources().getColor(R.color.primary_dark);
+        }
+        final Window window = getWindow();
+        ObjectAnimator animator = ObjectAnimator.ofInt(window,
+                "navigationBarColor", window.getNavigationBarColor(), color);
         animator.setEvaluator(new ArgbEvaluator());
         animator.setDuration(300);
         animator.start();
