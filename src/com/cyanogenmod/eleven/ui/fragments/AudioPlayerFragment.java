@@ -1,5 +1,6 @@
 /*
 * Copyright (C) 2014 The CyanogenMod Project
+* Copyright (C) 2015 The MoKee Open Source Project
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -73,6 +74,8 @@ import com.cyanogenmod.eleven.widgets.VisualizerView;
 import java.lang.ref.WeakReference;
 
 import static com.cyanogenmod.eleven.utils.MusicUtils.mService;
+
+import com.mokee.eleven.widgets.SleepModeDialog;
 
 public class AudioPlayerFragment extends Fragment implements ServiceConnection {
     private static final String TAG = AudioPlayerFragment.class.getSimpleName();
@@ -679,6 +682,9 @@ public class AudioPlayerFragment extends Fragment implements ServiceConnection {
                 return true;
             case R.id.menu_clear_queue:
                 MusicUtils.clearQueue();
+                return true;
+            case R.id.menu_sleep_mode:
+                SleepModeDialog.show(getFragmentManager());
                 return true;
             default:
                 break;
