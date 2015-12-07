@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2015 The MoKee Open Source Project
+ * Copyright (C) 2015-2016 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -117,7 +117,7 @@ public class HomeActivity extends SlidingPanelActivity implements
 
             // figure which panel we are on and update the status bar
             mBrowsePanelActive = (getCurrentPanel() == Panel.Browse);
-            updateStatusBarColorAndNavigationBarColor();
+            updateNavigationBarAndStatusBarColor();
         }
 
         // if intent wasn't UI related, process it as a audio playback request
@@ -168,7 +168,7 @@ public class HomeActivity extends SlidingPanelActivity implements
     @Override
     public void onMetaChanged() {
         super.onMetaChanged();
-        updateStatusBarColorAndNavigationBarColor();
+        updateNavigationBarAndStatusBarColor();
     }
 
     @Override
@@ -176,7 +176,7 @@ public class HomeActivity extends SlidingPanelActivity implements
         boolean isInBrowser = getCurrentPanel() == Panel.Browse && slideOffset < 0.7f;
         if (isInBrowser != mBrowsePanelActive) {
             mBrowsePanelActive = isInBrowser;
-            updateStatusBarColorAndNavigationBarColor();
+            updateNavigationBarAndStatusBarColor();
         }
     }
 
@@ -188,7 +188,7 @@ public class HomeActivity extends SlidingPanelActivity implements
                 && getCurrentPanel() == Panel.MusicPlayer);
     }
 
-    private void updateStatusBarColorAndNavigationBarColor() {
+    private void updateNavigationBarAndStatusBarColor() {
         if (mBrowsePanelActive || MusicUtils.getCurrentAlbumId() < 0) {
             updateStatusBarColor(Color.TRANSPARENT);
             updateNavigationBarColor(Color.TRANSPARENT);
