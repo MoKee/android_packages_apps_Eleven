@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_sleep_mode">Slaaptimer</string>
-  <string name="cancel_sleep_mode">De slaaptimer annuleren</string>
+  <string name="cancel_sleep_mode">Slaaptimer annuleren</string>
   <string name="select_quit_time">Timer instellen om de speler te stoppen (in minuten)</string>
   <string name="quit_warining">Speler stopt met afspelen na %1$s minu(u)t(en) </string>
 </resources>
