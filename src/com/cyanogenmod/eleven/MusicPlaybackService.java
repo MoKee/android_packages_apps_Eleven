@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2012 Andrew Neal
- * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2015 The MoKee Open Source Project
+ * Copyright (C) 2014-2016 The CyanogenMod Project
+ * Copyright (C) 2014-2016 The MoKee Open Source Project
  * Licensed under the Apache License, Version 2.0
  * (the "License"); you may not use this file except in compliance with the
  * License. You may obtain a copy of the License at
@@ -2521,6 +2521,7 @@ public class MusicPlaybackService extends Service {
      * Temporarily pauses playback.
      */
     public void pause() {
+        if (mPlayerHandler == null) return;
         if (D) Log.d(TAG, "Pausing playback");
         synchronized (this) {
             mPlayerHandler.removeMessages(FADEUP);
