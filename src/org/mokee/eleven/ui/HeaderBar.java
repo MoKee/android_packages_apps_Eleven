@@ -1,5 +1,6 @@
 /*
 * Copyright (C) 2014 The CyanogenMod Project
+* Copyright (C) 2015-2016 The MoKee Open Source Project
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -33,6 +34,8 @@ import org.mokee.eleven.loaders.QueueLoader;
 import org.mokee.eleven.menu.CreateNewPlaylist;
 import org.mokee.eleven.utils.MusicUtils;
 import org.mokee.eleven.utils.NavUtils;
+
+import org.mokee.eleven.widgets.SleepModeDialog;
 
 /**
  * Simple Header bar wrapper class that also has its own menu bar button.
@@ -162,6 +165,9 @@ public class HeaderBar extends LinearLayout {
                 return true;
             case R.id.menu_clear_queue:
                 MusicUtils.clearQueue();
+                return true;
+            case R.id.menu_sleep_mode:
+                SleepModeDialog.show(mFragment.getFragmentManager());
                 return true;
             default:
                 break;
