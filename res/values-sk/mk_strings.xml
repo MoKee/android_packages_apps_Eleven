@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">睡眠模式</string>
-  <string name="cancel_sleep_mode">取消定时睡眠</string>
-  <string name="select_quit_time">请设置自动关闭的时间（分钟）</string>
-  <string name="quit_warining">播放器将在 %1$s 分钟后停止播放</string>
+  <string name="menu_sleep_mode">Časovač</string>
+  <string name="cancel_sleep_mode">Zrušiť časovač</string>
+  <string name="select_quit_time">Nastaviť časovač aby vypol prehrávač (v min.)</string>
+  <string name="quit_warining">Prehrávač prestane prehrávať po %1$s min.</string>
 </resources>
