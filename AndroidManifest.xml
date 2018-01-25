@@ -58,6 +58,7 @@
         android:allowBackup="true"
         android:allowTaskReparenting="true"
         android:hardwareAccelerated="@bool/config_hardwareAccelerated"
+        android:appCategory="audio"
         android:icon="@mipmap/ic_launcher_eleven"
         android:roundIcon="@mipmap/ic_launcher_eleven_round"
         android:label="@string/app_name"
