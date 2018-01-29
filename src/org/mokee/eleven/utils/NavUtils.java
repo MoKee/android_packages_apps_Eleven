@@ -126,7 +126,7 @@ public final class NavUtils {
     }
 
     /**
-     * Opens the sound effects panel AudioFX in LineageOS
+     * Opens the sound effects panel AudioFX in MoKee
      *
      * @param context The {@link Activity} to use.
      * @param requestCode The request code passed into startActivityForResult
