@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<org.lineageos.eleven.ui.HeaderBar xmlns:android="http://schemas.android.com/apk/res/android"
+<org.mokee.eleven.ui.HeaderBar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="@dimen/header_bar_height"
     android:enabled="false"
@@ -67,4 +67,4 @@
         android:background="@drawable/selectable_background"
         android:src="@drawable/menu_button_light"/>
 
-</org.lineageos.eleven.ui.HeaderBar>
+</org.mokee.eleven.ui.HeaderBar>

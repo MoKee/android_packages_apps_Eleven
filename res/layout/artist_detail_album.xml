@@ -39,7 +39,7 @@
             android:layout_alignParentLeft="true"
             android:scaleType="centerCrop" />
 
-        <org.lineageos.eleven.widgets.PopupMenuButton
+        <org.mokee.eleven.widgets.PopupMenuButton
             android:id="@+id/overflow"
             android:layout_width="@dimen/overflow_width"
             android:layout_height="match_parent"
