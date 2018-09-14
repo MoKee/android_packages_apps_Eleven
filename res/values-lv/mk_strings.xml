@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">ನಿದ್ರೆ ಟೈಮರ್</string>
-  <string name="cancel_sleep_mode">ನಿದ್ರೆ ಟೈಮರ್ ರದ್ದುಗೊಳಿಸಿ</string>
-  <string name="select_quit_time">ಪ್ಲೇಯರ್ ನಿಲ್ಲಿಸಲು ಟೈಮರ್ ಸಂಯೋಜಿಸಿ (ನಿಮಿಷಗಳಲ್ಲಿ)</string>
-  <string name="quit_warining">ಪ್ಲೇಯರ್ %1$s ನಿಮಿಷ(ಗಳ) ನಂತರ ನಿಲ್ಲುವುದು</string>
+  <string name="menu_sleep_mode">Miega Taimeris</string>
+  <string name="cancel_sleep_mode">Atcelt Miega Taimeri</string>
+  <string name="select_quit_time">Uzlikt taimeri apstādināt spēlētāju (minūtēs)</string>
+  <string name="quit_warining">Spēlētājs beigs spēlēt pēc %1$s minūtes(ēm)</string>
 </resources>
