@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Temporizador de apagado automatico</string>
-  <string name="cancel_sleep_mode">Cancelar temporizador apagado automatico</string>
-  <string name="select_quit_time">Introduce el tiempo de parada del reproductor (en minutos)</string>
-  <string name="quit_warining">El reproductor se parara en %1$s minuto(s)</string>
+    <string name="menu_sleep_mode">Temporizador de apagado automatico</string>
+    <string name="cancel_sleep_mode">Cancelar temporizador apagado automatico</string>
+    <string name="select_quit_time">Introduce el tiempo de parada del reproductor (en minutos)</string>
+    <string name="quit_warining">El reproductor se parara en %1$s minuto(s)</string>
 </resources>

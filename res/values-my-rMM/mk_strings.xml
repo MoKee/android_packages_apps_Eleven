@@ -15,6 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">အိပ်ချိန်</string>
-  <string name="quit_warining">ပလေယာသည် %1$s မိနစ်ကြာလျှင် ရပ်သွားပါမည်။</string>
+    <string name="menu_sleep_mode">အိပ်ချိန်</string>
+    <string name="quit_warining">ပလေယာသည် %1$s မိနစ်ကြာလျှင် ရပ်သွားပါမည်။</string>
 </resources>

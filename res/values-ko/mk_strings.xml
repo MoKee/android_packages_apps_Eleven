@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">수면 타이머</string>
-  <string name="cancel_sleep_mode">수면 타이머를 취소</string>
-  <string name="select_quit_time">자동 턴 오프 시간 (분)을 설정</string>
-  <string name="quit_warining">플레이어는 %1$s 분(초)후 재생을 중지 합니다.</string>
+    <string name="menu_sleep_mode">수면 타이머</string>
+    <string name="cancel_sleep_mode">수면 타이머를 취소</string>
+    <string name="select_quit_time">자동 턴 오프 시간 (분)을 설정</string>
+    <string name="quit_warining">플레이어는 %1$s 분(초)후 재생을 중지 합니다.</string>
 </resources>

@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Orasan sa pagtulog</string>
-  <string name="cancel_sleep_mode">Pagkansela sa Sleep Timer</string>
-  <string name="select_quit_time">Magtakda ng timer para itigil ang player (sa min)</string>
-  <string name="quit_warining">Ang player ay tumigil sa pag-play matapos ang %1$s na mga minuto(s)</string>
+    <string name="menu_sleep_mode">Orasan sa pagtulog</string>
+    <string name="cancel_sleep_mode">Pagkansela sa Sleep Timer</string>
+    <string name="select_quit_time">Magtakda ng timer para itigil ang player (sa min)</string>
+    <string name="quit_warining">Ang player ay tumigil sa pag-play matapos ang %1$s na mga minuto(s)</string>
 </resources>

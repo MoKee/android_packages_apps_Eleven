@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">睡眠計時器</string>
-  <string name="cancel_sleep_mode">取消睡眠計時器</string>
-  <string name="select_quit_time">自訂停止撥放的時間(分鐘)</string>
-  <string name="quit_warining">播放器將在%1$s 分鐘停止播放</string>
+    <string name="menu_sleep_mode">睡眠計時器</string>
+    <string name="cancel_sleep_mode">取消睡眠計時器</string>
+    <string name="select_quit_time">自訂停止撥放的時間(分鐘)</string>
+    <string name="quit_warining">播放器將在%1$s 分鐘停止播放</string>
 </resources>

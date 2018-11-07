@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Аутоматско искључивање</string>
-  <string name="cancel_sleep_mode">Ауто-искључивање поништено</string>
-  <string name="select_quit_time">Време до искључивања (у минутима)</string>
-  <string name="quit_warining">Искључивање плејера за %1$s минут(а)</string>
+    <string name="menu_sleep_mode">Аутоматско искључивање</string>
+    <string name="cancel_sleep_mode">Ауто-искључивање поништено</string>
+    <string name="select_quit_time">Време до искључивања (у минутима)</string>
+    <string name="quit_warining">Искључивање плејера за %1$s минут(а)</string>
 </resources>

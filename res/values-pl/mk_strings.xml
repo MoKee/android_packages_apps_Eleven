@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Wyłącznik czasowy</string>
-  <string name="cancel_sleep_mode">Anuluj wyłącznik czasowy</string>
-  <string name="select_quit_time">Ustaw czas wyłączenia odtwarzacza (w minutach)</string>
-  <string name="quit_warining">Odtwarzacz wyłączy się za %1$s minut</string>
+    <string name="menu_sleep_mode">Wyłącznik czasowy</string>
+    <string name="cancel_sleep_mode">Anuluj wyłącznik czasowy</string>
+    <string name="select_quit_time">Ustaw czas wyłączenia odtwarzacza (w minutach)</string>
+    <string name="quit_warining">Odtwarzacz wyłączy się za %1$s minut</string>
 </resources>

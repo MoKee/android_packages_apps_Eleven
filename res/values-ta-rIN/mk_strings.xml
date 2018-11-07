@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">உறக்க கடிகாரம்</string>
-  <string name="cancel_sleep_mode">உறக்க கடிகாரம் ரத்து</string>
-  <string name="select_quit_time">பிளேயரை (நிமிடங்களில்) நிறுத்த டைமர் அமை</string>
-  <string name="quit_warining">இசை %1$s நிமிடங்கள் பிறகு விளையாடி நிறுத்திவிடும்</string>
+    <string name="menu_sleep_mode">உறக்க கடிகாரம்</string>
+    <string name="cancel_sleep_mode">உறக்க கடிகாரம் ரத்து</string>
+    <string name="select_quit_time">பிளேயரை (நிமிடங்களில்) நிறுத்த டைமர் அமை</string>
+    <string name="quit_warining">இசை %1$s நிமிடங்கள் பிறகு விளையாடி நிறுத்திவிடும்</string>
 </resources>

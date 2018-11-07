@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Insomningstimer</string>
-  <string name="cancel_sleep_mode">Avbryt insomningstimer</string>
-  <string name="select_quit_time">Ställ in timer att stoppa spelaren (i minuter)</string>
-  <string name="quit_warining">Spelaren kommer sluta spela efter %1$s minut(er)</string>
+    <string name="menu_sleep_mode">Insomningstimer</string>
+    <string name="cancel_sleep_mode">Avbryt insomningstimer</string>
+    <string name="select_quit_time">Ställ in timer att stoppa spelaren (i minuter)</string>
+    <string name="quit_warining">Spelaren kommer sluta spela efter %1$s minut(er)</string>
 </resources>

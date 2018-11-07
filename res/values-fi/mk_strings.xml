@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Lepoajastin</string>
-  <string name="cancel_sleep_mode">Peruuta uniajastin</string>
-  <string name="select_quit_time">Aseta ajastin pysäyttämään soitin (minuuteissa)</string>
-  <string name="quit_warining">Soitin pysäyttää toistamisen %1$s minuutin kuluttua</string>
+    <string name="menu_sleep_mode">Lepoajastin</string>
+    <string name="cancel_sleep_mode">Peruuta uniajastin</string>
+    <string name="select_quit_time">Aseta ajastin pysäyttämään soitin (minuuteissa)</string>
+    <string name="quit_warining">Soitin pysäyttää toistamisen %1$s minuutin kuluttua</string>
 </resources>

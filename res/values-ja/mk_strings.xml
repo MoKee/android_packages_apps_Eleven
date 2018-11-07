@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">スリープタイマー</string>
-  <string name="cancel_sleep_mode">スリープタイマーをキャンセルしました</string>
-  <string name="select_quit_time">プレーヤーを停止するタイマーを設定して下さい (分単位で)</string>
-  <string name="quit_warining">プレーヤーは %1$s 分後に再生を停止します</string>
+    <string name="menu_sleep_mode">スリープタイマー</string>
+    <string name="cancel_sleep_mode">スリープタイマーをキャンセルしました</string>
+    <string name="select_quit_time">プレーヤーを停止するタイマーを設定して下さい (分単位で)</string>
+    <string name="quit_warining">プレーヤーは %1$s 分後に再生を停止します</string>
 </resources>

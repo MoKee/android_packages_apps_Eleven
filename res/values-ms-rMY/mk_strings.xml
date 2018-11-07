@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Pemasa Tidur</string>
-  <string name="cancel_sleep_mode">Batal Pemasa Tidur</string>
-  <string name="select_quit_time">Tetapkan pemasa untuk henti pemain (dalam minit)</string>
-  <string name="quit_warining">Pemain akan berhenti selepas %1$s minit</string>
+    <string name="menu_sleep_mode">Pemasa Tidur</string>
+    <string name="cancel_sleep_mode">Batal Pemasa Tidur</string>
+    <string name="select_quit_time">Tetapkan pemasa untuk henti pemain (dalam minit)</string>
+    <string name="quit_warining">Pemain akan berhenti selepas %1$s minit</string>
 </resources>

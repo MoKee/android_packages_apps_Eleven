@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Temporizador</string>
-  <string name="cancel_sleep_mode">Cancelar temporizador</string>
-  <string name="select_quit_time">Definir temporizador para desligar a musica (em minuitos)</string>
-  <string name="quit_warining">A musica vai parar dentro de %1$s minuto(s)</string>
+    <string name="menu_sleep_mode">Temporizador</string>
+    <string name="cancel_sleep_mode">Cancelar temporizador</string>
+    <string name="select_quit_time">Definir temporizador para desligar a musica (em minuitos)</string>
+    <string name="quit_warining">A musica vai parar dentro de %1$s minuto(s)</string>
 </resources>

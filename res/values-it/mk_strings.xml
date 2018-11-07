@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Timer spegnimento</string>
-  <string name="cancel_sleep_mode">Annulla timer di spegnimento</string>
-  <string name="select_quit_time">Imposta il timer per fermare la riproduzione musicale (in minuti)</string>
-  <string name="quit_warining">La riproduzione musicale si interromperà fra %1$s minuto(i)</string>
+    <string name="menu_sleep_mode">Timer spegnimento</string>
+    <string name="cancel_sleep_mode">Annulla timer di spegnimento</string>
+    <string name="select_quit_time">Imposta il timer per fermare la riproduzione musicale (in minuti)</string>
+    <string name="quit_warining">La riproduzione musicale si interromperà fra %1$s minuto(i)</string>
 </resources>

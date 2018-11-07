@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Таймер сну</string>
-  <string name="cancel_sleep_mode">Скасувати таймер сну</string>
-  <string name="select_quit_time">Задати таймер відключення плеєра (у хв.)</string>
-  <string name="quit_warining">Плеєр зупиниться через %1$s хв</string>
+    <string name="menu_sleep_mode">Таймер сну</string>
+    <string name="cancel_sleep_mode">Скасувати таймер сну</string>
+    <string name="select_quit_time">Задати таймер відключення плеєра (у хв.)</string>
+    <string name="quit_warining">Плеєр зупиниться через %1$s хв</string>
 </resources>

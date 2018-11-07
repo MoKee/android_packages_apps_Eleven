@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Časovnik za spanje</string>
-  <string name="cancel_sleep_mode">Prekliči časovnik spanja</string>
-  <string name="select_quit_time">Nastavi časovnik za ustavitev (v min)</string>
-  <string name="quit_warining">Predvajanje končano čez %1$s minut</string>
+    <string name="menu_sleep_mode">Časovnik za spanje</string>
+    <string name="cancel_sleep_mode">Prekliči časovnik spanja</string>
+    <string name="select_quit_time">Nastavi časovnik za ustavitev (v min)</string>
+    <string name="quit_warining">Predvajanje končano čez %1$s minut</string>
 </resources>

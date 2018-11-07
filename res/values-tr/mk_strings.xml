@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">Uyku zamanlayıcısı</string>
-  <string name="cancel_sleep_mode">Uyku zamanlayıcısını iptal et</string>
-  <string name="select_quit_time">Oynatıcıyı durdurmak için zamanlayıcıyı ayarlayın (dakika)</string>
-  <string name="quit_warining">Oynatıcı %1$s dakika çaldıktan sonra duracak</string>
+    <string name="menu_sleep_mode">Uyku zamanlayıcısı</string>
+    <string name="cancel_sleep_mode">Uyku zamanlayıcısını iptal et</string>
+    <string name="select_quit_time">Oynatıcıyı durdurmak için zamanlayıcıyı ayarlayın (dakika)</string>
+    <string name="quit_warining">Oynatıcı %1$s dakika çaldıktan sonra duracak</string>
 </resources>

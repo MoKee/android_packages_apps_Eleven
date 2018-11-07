@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="menu_sleep_mode">مؤقت النوم</string>
-  <string name="cancel_sleep_mode">الغاء مؤقت النوم</string>
-  <string name="select_quit_time">وضع مؤقت لإيقاف (player) في الدقيقة</string>
-  <string name="quit_warining">سيتم ايقاف (player) بعد %1$s دقيقة</string>
+    <string name="menu_sleep_mode">مؤقت النوم</string>
+    <string name="cancel_sleep_mode">الغاء مؤقت النوم</string>
+    <string name="select_quit_time">وضع مؤقت لإيقاف (player) في الدقيقة</string>
+    <string name="quit_warining">سيتم ايقاف (player) بعد %1$s دقيقة</string>
 </resources>
